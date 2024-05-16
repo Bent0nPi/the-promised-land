@@ -1,0 +1,79 @@
+{
+  "shapes": [],
+  "specialPoints": [],
+  "basePoint": {
+    "x": 0,
+    "y": 0
+  },
+  "buildings": [
+    {
+      "type": "monastery",
+      "shapes": [
+        {
+          "vertices": [
+            {
+              "x": -40,
+              "y": 40
+            },
+            {
+              "x": 40,
+              "y": 40
+            },
+            {
+              "x": 40,
+              "y": -40
+            },
+            {
+              "x": -40,
+              "y": -40
+            }
+          ],
+          "usedEdges": [
+            1,1,1,1
+          ],
+          "basePoint": {
+            "x": 0,
+            "y": 0
+          },
+          "tag": "MONASTERY"
+        },
+        {
+          "vertices": [
+            {
+              "x": -120,
+              "y": 120
+            },
+            {
+              "x": 120,
+              "y": 120
+            },
+            {
+              "x": 120,
+              "y": -120
+            },
+            {
+              "x": -120,
+              "y": -120
+            }
+          ],
+          "usedEdges": [
+            0,0,0,0
+          ],
+          "basePoint": {
+            "x": 0,
+            "y": 0
+          },
+          "tag": "FIELD"
+        }
+      ],
+      "workPoints": [
+        {
+          "x": 0,
+          "y": 0
+        }
+      ]
+    }
+  ],
+  "resource": "/graphics/tiles/8.png"
+
+}

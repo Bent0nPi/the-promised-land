@@ -1,0 +1,119 @@
+{
+  "shapes": [
+    {
+      "vertices": [
+        {
+          "x": -120,
+          "y": 120
+        },
+        {
+          "x": 120,
+          "y": 120
+        },
+        {
+          "x": 72,
+          "y": 0
+        },
+        {
+          "x": 120,
+          "y": -120
+        },
+        {
+          "x": -120,
+          "y": -120
+        },
+        {
+          "x": -72,
+          "y": 0
+        }
+      ],
+      "usedEdges": [
+        0,1,1,0,1,1
+      ],
+      "basePoint": {
+        "x": 0,
+        "y": 0
+      },
+      "tag": "FIELD"
+    }
+  ],
+  "specialPoints": [],
+  "basePoint": {
+    "x": 0,
+    "y": 0
+  },
+  "buildings": [
+    {
+      "type": "town",
+      "shapes": [
+        {
+          "vertices": [
+            {
+              "x": -120,
+              "y": 120
+            },
+            {
+              "x": -72,
+              "y": 0
+            },
+            {
+              "x": -120,
+              "y": -120
+            }
+          ],
+          "usedEdges": [
+            1,1,0
+          ],
+          "basePoint": {
+            "x": 0,
+            "y": 0
+          },
+          "tag": "TOWN"
+        }
+      ],
+      "workPoints": [
+        {
+          "x": -96,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "type": "town",
+      "shapes": [
+        {
+          "vertices": [
+            {
+              "x": 120,
+              "y": 120
+            },
+            {
+              "x": 120,
+              "y": -120
+            },
+            {
+              "x": 72,
+              "y": 0
+            }
+          ],
+          "usedEdges": [
+            0,1,1
+          ],
+          "basePoint": {
+            "x": 0,
+            "y": 0
+          },
+          "tag": "TOWN"
+        }
+      ],
+      "workPoints": [
+        {
+          "x": 96,
+          "y": 0
+        }
+      ]
+    }
+  ],
+  "resource": "/graphics/tiles/56.png"
+
+}

@@ -4,19 +4,243 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f599fe7b-22a7-453c-b8f8-d2f63f48adb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/Main.java" afterDir="false" />
+    <list default="true" id="f599fe7b-22a7-453c-b8f8-d2f63f48adb7" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/GameModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/Monastery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/OfflineTilesDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/OfflineTurnStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/Road.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/TilesDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/Town.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/TurnStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/model/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/presenter/GamePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/util/GameUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/util/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/util/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/util/PlayerTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/util/exceptions/DataAccessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/util/exceptions/IncompatibleTileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/util/exceptions/OccupiedPositionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/config/ControllerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/config/StageManger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/controllers/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/controllers/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/graphics/Animation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/graphics/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/graphics/GamePane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/graphics/GameScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/graphics/MapPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/graphics/ResultsPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/graphics/SettingsPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/graphics/SpriteSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/graphics/TileView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/graphics/TurnInterfaceBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/graphics/WorkPointView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/view/graphics/WorkerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/tiles/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/turnInterface/available_tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/turnInterface/blocked_tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/turnInterface/part.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/turnInterface/score_board.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/turnInterface/start_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/turnInterface/start_btn_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/turnInterface/tile_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/turnInterface/worker_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/turnInterface/wrapper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Archer_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Archer_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Archer_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Archer_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Castle_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Castle_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Castle_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Castle_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Dead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Explosions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Foam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Goblin_House.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/House_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/House_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/House_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/House_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Pawn_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Pawn_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Pawn_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Pawn_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Tower_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Tower_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Tower_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Tower_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Warrior_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Warrior_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Warrior_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Warrior_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Wood_Tower_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Wood_Tower_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Wood_Tower_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/Wood_Tower_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/chicken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/graphics/units/egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/10.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/14.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/15.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/16.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/17.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/18.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/19.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/21.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/22.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/23.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/25.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/26.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/27.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/28.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/29.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/31.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/32.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/33.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/34.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/35.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/36.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/37.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/38.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/39.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/40.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/41.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/42.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/43.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/44.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/45.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/46.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/47.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/48.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/49.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/50.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/51.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/52.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/53.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/54.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/55.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/56.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/57.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/58.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/59.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/60.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/61.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/62.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/63.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/64.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/65.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/66.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/67.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/68.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/69.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/70.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/71.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/72.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/physics/tiles/9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeometryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,35 +252,190 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="the-promised-land" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitLabMergeRequestsSettings"><![CDATA[{}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Bent0nPi&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: []
+}</component>
+  <component name="GitLabMergeRequestsSettings">{}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Bent0nPi/the-promised-land.git&quot;,
+    &quot;accountId&quot;: &quot;4953c657-1cd0-4b20-849a-2dadece5ef2b&quot;
+  }
+}</component>
+  <component name="KubernetesApiProvider">{}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2doXAkOEzBUSl19q5JLZHrv2kpF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.GeometryTest.lineNestingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.the_promised_land [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.the_promised_land [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.the_promised_land [run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/anton/IdeaProjects/the_promised_land/src/main/resources/graphics/turnInterface&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/graphics/turnInterface" />
+      <recent name="$PROJECT_DIR$/src/main/resources/physics/tiles" />
+      <recent name="$PROJECT_DIR$/src/main/resources/graphics/units" />
+      <recent name="$PROJECT_DIR$/src/main/resources/graphics/tiles" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/graphics/turnInterface" />
+      <recent name="$PROJECT_DIR$/src/main/java/ru/nsu/ccfit/chumak/util" />
+      <recent name="$PROJECT_DIR$/src/main/resources/graphics/" />
+      <recent name="$PROJECT_DIR$/src/main/resources/graphics/tiles" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.nsu.ccfit.chumak.util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.nsu.ccfit.chumak.view.graphics" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.the_promised_land [run]">
+    <configuration name="GeometryTest.lineNestingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;GeometryTest.lineNestingTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="the_promised_land [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="the_promised_land [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.the_promised_land [run]" />
+        <item itemvalue="Gradle.the_promised_land [build]" />
+        <item itemvalue="Gradle.GeometryTest.lineNestingTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.17" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.17" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
         <option value="jdk-21.0.2-openjdk-21.0.2-5de6df2af3e8-0651fe42" />
       </set>
     </attachedChunks>
@@ -69,11 +448,68 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675266605</updated>
-      <workItem from="1710675267724" duration="12000" />
+      <workItem from="1710675267724" duration="5183000" />
+      <workItem from="1710695989018" duration="1726000" />
+      <workItem from="1710776639810" duration="8589000" />
+      <workItem from="1710827004571" duration="5465000" />
+      <workItem from="1711007286747" duration="932000" />
+      <workItem from="1711164797967" duration="100000" />
+      <workItem from="1711280008347" duration="9000" />
+      <workItem from="1711970730160" duration="3991000" />
+      <workItem from="1712022972821" duration="3528000" />
+      <workItem from="1712061788868" duration="9114000" />
+      <workItem from="1712818509048" duration="7251000" />
+      <workItem from="1712842645400" duration="9887000" />
+      <workItem from="1713451410917" duration="3338000" />
+      <workItem from="1713490045848" duration="24300000" />
+      <workItem from="1714380696496" duration="20288000" />
+      <workItem from="1714439401124" duration="3649000" />
+      <workItem from="1714480839131" duration="322000" />
+      <workItem from="1714488909516" duration="7145000" />
+      <workItem from="1714531176181" duration="23787000" />
+      <workItem from="1714619613902" duration="1231000" />
+      <workItem from="1714697729124" duration="12910000" />
+      <workItem from="1714733839721" duration="26057000" />
+      <workItem from="1714984938117" duration="36956000" />
+      <workItem from="1715025033202" duration="6916000" />
+      <workItem from="1715053882081" duration="70000" />
+      <workItem from="1715060128504" duration="125000" />
+      <workItem from="1715061174090" duration="118000" />
+      <workItem from="1715084575388" duration="12620000" />
+      <workItem from="1715101179360" duration="12276000" />
+      <workItem from="1715132919935" duration="410000" />
+      <workItem from="1715139858540" duration="382000" />
+      <workItem from="1715155170270" duration="1765000" />
+      <workItem from="1715173365464" duration="1011000" />
+      <workItem from="1715183208758" duration="8690000" />
+      <workItem from="1715223127754" duration="61911000" />
+      <workItem from="1715406595060" duration="7297000" />
+      <workItem from="1715605433999" duration="2258000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1710675333420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710675333420</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="ru.nsu.ccfit.chumak.model.Point" memberName="x" />
+        <PinnedItemInfo parentTag="ru.nsu.ccfit.chumak.model.Point" memberName="y" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
